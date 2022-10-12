@@ -81,9 +81,9 @@ If you see error during login, fix it in the terminal in which you already logge
 
 If everything works, you should see that you are using `zsh` now. From now on, you can log into a compute node and start a interactive session using:
 
-* `srun -I60 --pty --cpus-per-task=8 --mem=32G --part=medium --time=1-0 --nodelist=hpc-cpu-50 zsh`
+* `srun -I60 --x11 --pty --cpus-per-task=8 --mem=32G --part=medium --time=1-0 --nodelist=hpc-cpu-50 zsh`
 
-where `--cpus-per-task`, `--mem` and `--nodelist` are optional parameters. Check out [BIH HPC Docs](https://docs.hpc.bihealth.org/slurm/quickstart/) for details.
+where `--x11`, `--cpus-per-task`, `--mem` and `--nodelist` are optional parameters. Check out [BIH HPC Docs](https://docs.hpc.bihealth.org/slurm/quickstart/) for details.
 
 You can also check out the [BIH HPC Docs](https://docs.hpc.bihealth.org/how-to/connect/gpu-nodes/) on how to use GPU nodes (for example, run CUDA version of `eddy` from `FSL`). `eddy` available in `$FSLDIR/bin` uses CUDA 11 by default. OpenMPI version is also available via `eddy_openmp`.
 
@@ -108,9 +108,9 @@ cp -r $HOME/group/setup/lead_data/* $HOME/work/MATLAB/toolbox/leaddbs
 
 ## Use MATLAB
 
-Log into a compute node with X11 forwarding enabled
+Log into a compute node with X11 forwarding enabled (`--x11`)
 
-`actmatlab` # This activate MATLAB on the compute node
+`actmatlab` # This activates MATLAB on the compute node
 
 `runmatlab` # This starts MATLAB without GUI
 
