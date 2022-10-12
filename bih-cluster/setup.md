@@ -14,7 +14,7 @@ For macOS, run `brew install xquartz` in your terminal to enable X11 forwarding.
 
 ## Log into a compute node
 
-`srun -I60 --pty --cpus-per-task=8 --mem=32G --part=medium --time=1-0 bash`&#x20;
+`srun -I60 --pty --cpus-per-task=8 --mem=32G --part=medium --time=1-0 bash`
 
 **Everything below should be done in a compute node.**
 
@@ -40,7 +40,7 @@ ln -sfn $(realpath $HOME/work/home/.singularity) $HOME/.singularity
 
 ## Copy preset files
 
-<pre><code><strong>cp -rT $HOME/group/setup/config $HOME</strong></code></pre>
+`cp -rT $HOME/group/setup/config $HOME`
 
 Things included:
 
@@ -81,7 +81,7 @@ If you see error during login, fix it in the terminal in which you already logge
 
 If everything works, you should see that you are using `zsh` now. From now on, you can log into a compute node and start a interactive session using:
 
-* `srun -I60 --pty --cpus-per-task=8 --mem=32G --part=medium --time=1-0 --nodelist=hpc-cpu-50 zsh`&#x20;
+* `srun -I60 --pty --cpus-per-task=8 --mem=32G --part=medium --time=1-0 --nodelist=hpc-cpu-50 zsh`
 
 where `--cpus-per-task`, `--mem` and `--nodelist` are optional parameters. Check out [BIH HPC Docs](https://docs.hpc.bihealth.org/slurm/quickstart/) for details.
 
