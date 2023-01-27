@@ -6,9 +6,13 @@ In addition, there is storage on the sharepoint that can be accessed from within
 
 It can be helpful to connect your local rclone install to Onedrive in order to swiftly backup stuff to Onedrive, e.g. from the [BIH Cluster](../bih-cluster/) or from your local machine.
 
-Connect your rclone to Onedrive:
+Run **`brew install rclone`** in the terminal in case you don't have it installed. To set up a new rclone remote, run **`rclone config`** in the terminal and follow the instructions displayed.
+
+## Connect your rclone to Onedrive:
 
 ```
+** See help for onedrive backend at: https://rclone.org/onedrive/ **
+
 Microsoft App Client Id
 Leave blank normally.
 Enter a string value. Press Enter for the default (“”).
@@ -54,14 +58,9 @@ n) No
 y/n> y
 ```
 
-
-
-
-
-Connect your rclone to the Netstim Sharepoint:
+## Connect your rclone to the Netstim Sharepoint:
 
 ```
-19
 ** See help for onedrive backend at: https://rclone.org/onedrive/ **
 
 Microsoft App Client Id
