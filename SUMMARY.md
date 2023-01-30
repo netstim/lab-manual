@@ -15,3 +15,4 @@
 * [Publications](publications.md)
 * [Collection of Resources](collection-of-resources.md)
 * [Nomenclature](nomenclature.md)
+* [Internal Manual](https://app.gitbook.com/o/-LXNx2xjSukdfwoFwk78/s/Bnu6CbqgBqLWkIZlEsqC/)
