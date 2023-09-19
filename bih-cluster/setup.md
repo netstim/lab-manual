@@ -98,7 +98,6 @@ cp $HOME/group/setup/container/matlab-ossdbs.sif $HOME/work/container
 
 ```
 getspm -P $HOME/work/MATLAB/toolbox
-unzip $HOME/work/MATLAB/toolbox/spm12.zip
 unzip -d $HOME/work/MATLAB/toolbox $HOME/work/MATLAB/toolbox/spm12.zip
 rm $HOME/work/MATLAB/toolbox/spm12.zip
 git clone https://github.com/netstim/leaddbs.git $HOME/work/MATLAB/toolbox/leaddbs
