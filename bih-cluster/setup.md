@@ -102,7 +102,7 @@ unzip -d $HOME/work/MATLAB/toolbox $HOME/work/MATLAB/toolbox/spm12.zip
 rm $HOME/work/MATLAB/toolbox/spm12.zip
 git clone https://github.com/netstim/leaddbs.git $HOME/work/MATLAB/toolbox/leaddbs
 git -C $HOME/work/MATLAB/toolbox/leaddbs checkout classic
-cp -r $HOME/group/setup/lead_data/* $HOME/work/MATLAB/toolbox/leaddbs
+cp -r $HOME/group/setup/leaddbs_data/* $HOME/work/MATLAB/toolbox/leaddbs
 ```
 
 ## Use MATLAB
