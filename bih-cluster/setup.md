@@ -20,7 +20,7 @@ For macOS, run `brew install xquartz` in your terminal to enable X11 forwarding.
 
 ## Create folders and soft links
 
-```
+```bash
 ln -sfn /fast/work/groups/ag_horn group
 
 mkdir -p $HOME/work/home/.cache
@@ -52,7 +52,7 @@ Things included:
 
 ## Setup Mambaforge
 
-```
+```bash
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh"
 sh Mambaforge-Linux-x86_64.sh -b -p $HOME/work/mambaforge
 rm Mambaforge-Linux-x86_64.sh
@@ -60,7 +60,7 @@ rm Mambaforge-Linux-x86_64.sh
 
 ## Install and configure zsh and .oh-my-zsh
 
-```
+```bash
 mamba install zsh -y
 ZSH="$HOME/work/home/.oh-my-zsh" sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 mv $HOME/.zshrc.pre-oh-my-zsh $HOME/.zshrc
@@ -69,7 +69,7 @@ mv $HOME/ys-cluster.zsh-theme $HOME/work/home/.oh-my-zsh/custom/themes/
 
 ## Initialize conda for bash and zsh
 
-```
+```bash
 conda init bash zsh
 ```
 
@@ -89,14 +89,14 @@ You can also check out the [BIH HPC Docs](https://docs.hpc.bihealth.org/how-to/c
 
 ## Copy MATLAB Singularity image
 
-```
+```bash
 mkdir -p $HOME/work/container
 cp $HOME/group/setup/container/matlab-ossdbs.sif $HOME/work/container
 ```
 
 ## Set up Lead-DBS
 
-```
+```bash
 getspm -P $HOME/work/MATLAB/toolbox
 unzip -d $HOME/work/MATLAB/toolbox $HOME/work/MATLAB/toolbox/spm12.zip
 rm $HOME/work/MATLAB/toolbox/spm12.zip
@@ -109,14 +109,22 @@ cp -r $HOME/group/setup/leaddbs_data/* $HOME/work/MATLAB/toolbox/leaddbs
 
 Log into a compute node with X11 forwarding enabled (`--x11`)
 
-`actmatlab` # This activates MATLAB on the compute node
+* `actmatlab` # This activates MATLAB on the compute node
+* `runmatlab` # This starts MATLAB without GUI
+* `runmatlabx` # This starts MATLAB with GUI
 
-`runmatlab` # This starts MATLAB without GUI
+To add SPM12 and LeadDBS to MATLAB search path:
 
-`runmatlabx` # This starts MATLAB with GUI
+```matlab
+savepath('~/work/MATLAB/pathdef.m');
+addpath('~/work/MATLAB/toolbox/spm12');
+addpath('~/work/MATLAB/toolbox/leaddbs');
+ea_setpath;
+```
 
 After you start LeadDBS, edit the preference file from the menu and set the two keys below:
 
-`prefs.lc.datadir = [ea_gethome, 'group', filesep, 'connectomes', filesep];`
-
-`prefs.env.dev = 1;`
+```matlab
+prefs.lc.datadir = [ea_gethome, 'group', filesep, 'connectomes', filesep];
+prefs.env.dev = 1;
+```
