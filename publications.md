@@ -31,3 +31,11 @@ Sollten Sie Fragen zur Angabe der BIH-Affiliation haben, wenden Sie sich gerne a
 Link: **** [Affiliationsrichtlinie im Charité-Intranet](https://intranet.charite.de/forschung/affiliationsrichtlinie/)
 
 [Übersetzung von Einrichtungen der Charité](https://intranet.charite.de/uk/publikationen\_richtlinien\_downloads/standards\_richtlinien/uebersetzungen/)
+
+**Publications using Lead-DBS**
+
+A shared Zotero library including all publications using Lead-DBS is available at  https://www.zotero.org/groups/5193749/lead-dbs-publications/library
+For lab members, ask Jordy, Lauren or Andy for an invite to also get access to the PDF.  
+Once received, simply accept the request and click on 'add this group library'. 
+
+
