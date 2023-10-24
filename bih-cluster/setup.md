@@ -50,12 +50,12 @@ Things included:
 * `ys-cluster.zsh-theme`
 * `startup.m` (MATLAB startup script)
 
-## Setup Mambaforge
+## Setup Miniforge
 
 ```bash
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh"
-sh Mambaforge-Linux-x86_64.sh -b -p $HOME/work/mambaforge
-rm Mambaforge-Linux-x86_64.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh"
+sh Miniforge3-Linux-x86_64.sh -b -p $HOME/work/miniforge3
+rm Miniforge3-Linux-x86_64.sh
 ```
 
 ## Install and configure zsh and .oh-my-zsh
