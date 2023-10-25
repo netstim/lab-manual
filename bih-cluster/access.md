@@ -21,5 +21,5 @@ The first step would be filling out the form below and send it to Ningfei.
 - duration of cluster access (max 1 year): 2020-03-30 to 2021-03-30
 ```
 
-****\
-****Upon approval, you will receive an email with an introduction. Whenever you have problems/questions, you can check out the [BIH HPC Docs](https://bihealth.github.io/bih-cluster/). There is also a page on [Getting Help](https://bihealth.github.io/bih-cluster/help/helpdesk/).
+\
+Upon approval, you will receive an email with an introduction. Whenever you have problems/questions, you can check out the [BIH HPC Docs](https://bihealth.github.io/bih-cluster/). There is also a page on [Getting Help](https://bihealth.github.io/bih-cluster/help/helpdesk/).

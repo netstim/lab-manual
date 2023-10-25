@@ -11,8 +11,8 @@ On this page, we want to give some useful quick tips regarding the “onboarding
 Here are the things you really need to do to get started.
 
 * Get a Charité Login and Email address (-> see [here](https://intranet.charite.de/it/it\_serviceueberblick/e\_mail\_dienst/) \[intranet] Talk to Andy).
-* Get a transponder key for the lab (-> pre-filled [application form](https://app.gitbook.com/o/-LXNx2xjSukdfwoFwk78/s/Bnu6CbqgBqLWkIZlEsqC/) \[internal] / Talk to Andy). Check [here](https://cfm-portal.charite.de/benefit/key) \[intranet] for the opening hours of the key management office.
-* Get access to the S-Drive (-> pre-filled [application form](https://app.gitbook.com/s/Bnu6CbqgBqLWkIZlEsqC/s-drive) \[internal]).
+* Get a transponder key for the lab (-> pre-filled [application form](http://127.0.0.1:5000/o/-LXNx2xjSukdfwoFwk78/s/Bnu6CbqgBqLWkIZlEsqC/) \[internal] / Talk to Andy). Check [here](https://cfm-portal.charite.de/benefit/key) \[intranet] for the opening hours of the key management office.
+* Get access to the S-Drive (-> pre-filled [application form](http://127.0.0.1:5000/s/Bnu6CbqgBqLWkIZlEsqC/s-drive) \[internal]).
 * Get your e-mail registered to the neuromodulation section (-> Talk to Julius) and netstim (-> Talk to Andy) groups.  Check here for the opening hours
 * Get a Slack account and get on the following three Slack channels:
   * [The Netstim lab channel](http://netstimworkchannel.slack.com)
