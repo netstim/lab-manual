@@ -4,19 +4,13 @@
 
 We hope we may provide a nice new academic home for you at the netstim.
 
-On this page, we want to give some useful quick tips regarding the “onboarding process” to quickly become productive at the netstim.
+On this page, we want to give some useful quick tips regarding the “onboarding process” to quickly become productive at the netstim. More detailed information related to Brigham / Harvard onboarding can be found in the internal manual.&#x20;
 
 ## Checklist: Must do's
 
-Here are the things you really need to do to get started.
-
-* Get a Charité Login and Email address (-> see [here](https://intranet.charite.de/it/it\_serviceueberblick/e\_mail\_dienst/) \[intranet] Talk to Andy).
-* Get a transponder key for the lab (-> pre-filled [application form](http://127.0.0.1:5000/o/-LXNx2xjSukdfwoFwk78/s/Bnu6CbqgBqLWkIZlEsqC/) \[internal] / Talk to Andy). Check [here](https://cfm-portal.charite.de/benefit/key) \[intranet] for the opening hours of the key management office.
-* Get access to the S-Drive (-> pre-filled [application form](http://127.0.0.1:5000/s/Bnu6CbqgBqLWkIZlEsqC/s-drive) \[internal]).
-* Get your e-mail registered to the neuromodulation section (-> Talk to Julius) and netstim (-> Talk to Andy) groups.  Check here for the opening hours
 * Get a Slack account and get on the following three Slack channels:
   * [The Netstim lab channel](http://netstimworkchannel.slack.com)
-  * [The Charite-DBS lab channel](http://charitedbs.slack.com)
+  * The CBCT lab channel braincircuit.slack.com
   * [The Lead-DBS user channel](http://leadsuite.slack.com) -> [Autoinvite yourself here](http://www.lead-dbs.org/helpsupport/slack-user-channel/).
   * If you join the Lead-DBS development work, you should also get on the [Lead-DBS dev channel](http://lead-dbs.slack.com)
 * Get an account to edit our online resources (-> talk to Leon or Qiang Wang).
@@ -42,11 +36,12 @@ We can recommend working with a mac (or if not with linux) in neuroscience – i
 
 #### Basic software that you’ll probably need
 
-* Matlab (-> Ask Jan for a license)&#x20;
+* Matlab (-> Ask Jan for a license) - Make sure you have the Image Processing, Signal Processing,  Statistics and Machine Learning Toolboxes, these are used by Lead-DBS.&#x20;
 * [SPM12](https://www.fil.ion.ucl.ac.uk/spm/software/spm12/) installed on the Matlab path&#x20;
 * [Lead-DBS](http://www.lead-dbs.org/), our in-house DBS imaging and connectivity suite with which we do almost everything&#x20;
 * [3DSlicer](http://slicer.org/) – a great nifti viewer and complete neuroimaging suite&#x20;
 * Chris Rorden’s beautiful [SurfIce](https://www.nitrc.org/projects/surfice/) visualization tool&#x20;
+* FSLeyes \[link]
 
 #### In case you use a mac, here are some great tools that you may want to check out:
 
